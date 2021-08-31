@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(161, 139, 139);
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(119, 119, 119, 0.6);
+}
+
+.button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: flex;
+}
+.volume-mute-btn,
+.pause-btn {
+    display: none;
+}
+progress{
+    position: absolute;
+    bottom: 47px;
+    width: 300px;
+    left:0;
+    cursor: pointer;
+}
+
+.btn {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.volume{
+    position:absolute;
+    right: 35px;
+    bottom: 20px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+   
+}
+.onredo{
+    opacity: 1;
+}
+.redo-btn{
+    display: none;
+}
+.redo{
+    position:absolute;
+    left: 35px;
+    bottom: 18px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+ 
+}
+.arrow-btn{
+    font-size: 20px;
+}
+.hide {
+    display: none;
+}
+
+.container img {
+    position: absolute;
+    z-index: -1;
+    width: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+    border-radius: 50%;
+    
+
+}
+
+.container h2 {
+    position: absolute;
+    top: 215px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container hr {
+    position: absolute;
+    top: 250px;
+    width: 98%;
+    border-radius: 5px;
+    border: 1px solid;  
+    margin-left: 3px;
+}
+
+.curtime{
+    position: absolute;
+    top: 252px;
+    left: 3px;
+}
+.totime{
+    position: absolute;
+    right: 3px;
+    top: 253px;
+}

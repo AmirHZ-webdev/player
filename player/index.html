@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <script src="assets/js/all.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <img src="assets/img/amirrashvand.jpg" alt="">
+    
+        <audio src="assets/music/amirrashvand.mp3"></audio>
+  
+        <h2 class="title">amirrashvand</h2>
+        <progress  min="0" max="100" value="0" onclick="linetime(this)"></progress>
+        
+        <p class="curtime">00:00</p>
+        <p class="totime">00:00</p>
+        <div class="button">
+            <span class="back-btn btn"><i class="fas fa-backward" onclick="back(this)"></i></span>
+            <span class="pause-btn btn"><i class="fas fa-pause "" onclick="pause(this)"></i></span>
+            <div class=" play-btn btn"><i class="fas fa-play" onclick="play(this)"></i></div>
+            <span class="next-btn btn"><i class="fas fa-forward" onclick="next(this)"></i></span>
+        </div>
+        <div class="volume ">
+            <span class="volume-mute-btn btn"> <i class="fas fa-volume-mute " onclick="volumeup(this)"></i></span>
+            <span class="mute-btn btn"> <i class="fas fa-volume-up " onclick="mute(this)"></i></span>
+            
+        </div>
+        <div class="redo">
+            <span class="arrow-btn btn"> <i class="fas fa-long-arrow-alt-right " onclick="repeat(this)"></i></span>
+            <span class="redo-btn btn"> <i class="fas fa-redo " onclick="norepeat(this)"></i></span>
+
+        </div>
+        
+    </div>
+
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
